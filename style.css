@@ -13,6 +13,10 @@
   color: #fff;
 }
 
+.container__text {
+   margin: 0 auto;
+}
+
 .content {
     width: 50%;
     max-width: 29rem;
@@ -38,4 +42,36 @@ a {
   font-size: 0.8rem;
   color: #072A2D;
   font-weight: 600;
+}
+
+.cont {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  padding: 4rem 0;
+  gap: 1rem;
+}
+
+.col {
+  text-align: center;
+}
+
+.cont h3 {
+  color:#87629A;
+  font-size: 1.7rem;
+  padding: 1rem 0;
+}
+
+.foot_section {
+  background-color: #136C72;
+  display: flex;
+  margin: 0 auto;
+  gap: 1rem;
+  padding: 4rem;
+  color: #fff;
+}
+
+.foot_section h3 {
+  font-size: 1.7rem;
+  margin-bottom: 1rem;
 }
