@@ -6,8 +6,15 @@
     font-family: Roboto;
 }
 
+img {
+  max-width: 100%;
+}
+
 .container {
   width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
   background-color: #23424a;
   padding: 6rem 4rem;
   color: #fff;
@@ -46,9 +53,9 @@ a {
 
 .cont {
   display: flex;
-  width: 90%;
-  margin: 0 auto;
-  padding: 4rem 0;
+  margin: 2.5rem 0;
+  justify-content: center;
+  width: 100%;
   gap: 1rem;
 }
 
@@ -57,21 +64,39 @@ a {
 }
 
 .cont h3 {
-  color:#87629A;
   font-size: 1.7rem;
   padding: 1rem 0;
 }
 
-.foot_section {
+.options {
   background-color: #136C72;
-  display: flex;
-  margin: 0 auto;
-  gap: 1rem;
-  padding: 4rem;
   color: #fff;
+  display: flex;
+  width: 25%;
+  row-gap: 3rem;
+  padding: 1rem;
+  flex-direction: column;
 }
 
 .foot_section h3 {
   font-size: 1.7rem;
   margin-bottom: 1rem;
+}
+
+.designs h3 {
+  color: #136C72;
+  font-size: 2rem;
+}
+
+.designs {
+  text-align: left;
+  width: 45%;
+}
+
+.text_area {
+  margin: 1rem;
+  color:  #223c3d;
+  line-height: 2rem;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size: 1.2rem;
 }
